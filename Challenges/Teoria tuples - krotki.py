@@ -61,3 +61,15 @@ anotherTuple = (100, 200, 300)
 # del anotherTuple[0]  # blad! odkomentowanie tej linii spowoduje blad
 # poniewaz krotki sa niemutowalne
 
+# Ilosc leementow w krotce zwraca funkcja len()
+numbers = (12, 20, 36, 50)
+print(len(numbers)) # 4
+
+# aby stworzc krotke mozna skorzystac z konstruktora. W kolejnych lekcjach dowiemy sie wiecej na temat konstruktorow;
+# w skrocie sa to funkcje ktore inicjalizuja dany obiekt w tym przypadku krotke.
+names = tuple(("Ola", "Ania", "Kasiak"))
+print(type(names)) # <class "tule">
+
+# wartosci krotki mozna wielokrotnie powtarzać
+nums = (1, 2, 3)
+print(nums * 4) # (1, 2, 3, 1, 2, 3, 1, 2, 3)
