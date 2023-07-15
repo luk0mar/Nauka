@@ -2,7 +2,9 @@
 # 2. Policz wydatki za pomoca petli for i wyswietl w konsoli ostateczna kwote. Pamietaj aby stworzyc zmienna 
 # z wartoscia poaczatkowa 0 do ktorej dodasz kolejny wydatek
 
-lastExpenses = (200, 300, 400, 500, 600)
+lastExpenses = 200, 300, 400, 500, 600
+result = 0
 for value in lastExpenses:
-    print(value)
-# dokoncz
+    result = result + value
+
+print("Suma wydatków:", result)
