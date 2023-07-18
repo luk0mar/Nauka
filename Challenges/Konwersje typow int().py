@@ -11,4 +11,4 @@ print(type(intNumber))  # <class "int">
 
 x = int(5)  # przykladowa liczba calkowita
 y = int("32")  # konwersja ciagu znakow na liczbe calkowita
-print(type(y))
+print(type(y))  # <class 'int'>
